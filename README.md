@@ -60,13 +60,17 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 ## OUTPUT:
 ### 1. Policy, Value function and success rate for the Adversarial Policy
 </br>
+
 ![alt text](image.png)
+
 ![alt text](image-1.png)
+
 ![alt text](image-2.png)
 </br>
 
 ### 2. Policy, Value function and success rate for the Improved Policy
 </br>
+
 ![alt text](image-3.png)
 ![alt text](image-4.png)
 ![alt text](image-5.png)
@@ -75,6 +79,7 @@ def policy_iteration(P, gamma=1.0, theta=1e-10):
 
 ### 3. Policy, Value function and success rate after policy iteration
 </br>
+
 ![alt text](image-7.png)
 ![alt text](image-8.png)
 ![alt text](image-9.png)
