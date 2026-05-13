@@ -7,6 +7,7 @@ To implement a policy iteration algorithm for finding the  optimal policy by ite
 This experiment aims to find the optimal strategy for a Markov Decision Process (MDP) by using the Policy Iteration algorithm. Policy iteration involves two  stages: assessing the current policy and enhancing it-policy Iteration and policy Improvement. During the policy assessment phase, we compute the value of each state under the existing policy. Subsequently, the policy enhancement phase involves comparing action-value functions to refine and establish the most advantageous policy for the MDP.
 
 ## POLICY ITERATION ALGORITHM
+
 ### Step -1 :
 Start with an arbitrary initial policy.
 
@@ -24,6 +25,7 @@ Print the optimal policy and its value function found through policy iteration.
 
 
 ## POLICY IMPROVEMENT FUNCTION
+
 ### Name : Easwari M
 ### Register Number: 212223240033
 ```
@@ -40,6 +42,7 @@ def policy_improvement(V, P, gamma=1.0):
     return new_pi
 ```
 ## POLICY ITERATION FUNCTION
+
 ### Name : Easwari M
 ### Register Number: 212223240033
 ```
